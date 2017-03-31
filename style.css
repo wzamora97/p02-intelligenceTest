@@ -1,0 +1,42 @@
+.navBar {
+  width: 100%;
+  float: left;
+  margin: 0 0 2cm 0;
+  padding: 0;
+  background-color: lightblue;
+  border-bottom: 5px solid blue;
+  border-top: 5px solid blue;
+  border-radius: 5px;
+ }
+ .navBar ul{
+   list-style: none;
+ }
+ .navBar li {
+     float: left;
+    }
+ .navBar li a:hover {
+         background-color: yellow;
+         list-style-type: none;
+        }
+ .navBar li a:visited{
+   color: blue;
+ }
+.bodyStyle{
+  background-color: pink;
+}
+.box{
+    width: 300px;
+    margin: 10px auto;
+}
+h1{
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+}
+span.hidden-message{
+  opacity: 0.0;
+}
+span.shown-message{
+  opacity: 1.0;
+}

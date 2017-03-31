@@ -1,0 +1,44 @@
+<!--Author: William Zamora-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intelligence test</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="test.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body class="bodyStyle">
+  <!-- Navbar was default bootstrap acquired at http://getbootstrap.com/components/#navbar-default-->
+  <div class="navBar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home<span class="sr-only"></span></a></li>
+      <li><a href="q1.html">Question 1</a></li>
+      <li><a href="q2.html">Question 2</a></li>
+      <li><a href="q3.html">Question 3</a></li>
+      <li><a href="results.html">Results</a></li>
+    </ul>
+  </div>
+  <div>
+    <h1> Question 1:</h1>
+    <ul>
+      <li> 1 + 1 = 1112</li>
+      <li> 3 + 5 = 9358</li>
+      <li> 7 + 4 = 497411</li>
+      <li> 6 + 9 = 366915</li>
+      <li> 3 + 0 = 9303</li>
+    </ul>
+    <p> Now you try! </p>
+    <div class="form-group" id="usernameGroup">
+      <div class="col-sm-2">
+        <span class="input-group-addon">7 + 7 =?</span>
+        <input type="text" id="q1Answer" class="form-control input-md"
+            placeholder="Answer" oninput="validateQ1()"/>
+        <span id="q1Error" class="control-label hidden-message">
+          Error Placeholder (hidden)
+        </span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
